@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ass6</title>
+	<style>
+		.dropdown{
+			display:inline;
+			position:relative;
+		}
+		.list{
+			background-color:powderblue;
+			margin:0;
+			padding:0;
+			border:1px solid black;
+			height:40px;
+			width:40px;
+			border-spacing:15px;
+		}
+		.dropdown-content1{
+			display:none; 
+			position:absolute;
+			color:red;
+			border-spacing: 15px;
+		}
+		.dropdown-content1 a{
+			display:block;
+		}
+		.dropdown-content2 a{
+			display:block;
+		}
+		.dropdown-content3 a{
+			display:block;
+		}
+		.dropdown:hover .dropdown-content1{
+			display:block;
+		}
+
+		.dropdown-content2{
+			display:none; 
+			position:absolute;
+			color:red;
+		}
+		.dropdown:hover .dropdown-content2{
+			display:block;
+		}
+
+		.dropdown-content3{
+			display:none; 
+			position:absolute;
+			color:red;
+		}
+		.dropdown:hover .dropdown-content3{
+			display:block;
+		}
+	
+</style>
+</head>
+	<body>
+		<h1>dropdown button</h1>
+
+		<div class="dropdown" style="float:left">
+			<button class="list">list 1</button>
+			<div class="dropdown-content1">
+				<a href="#">link 1</a>
+				<a href="#">link 2</a>
+				<a href="#">link 3</a>
+			</div>
+		</div>
+
+<div class="dropdown" style="float:left">
+			<button class="list">list 2</button>
+			<div class="dropdown-content2">
+				<a href="#">link 1</a>
+				<a href="#">link 2</a>
+				<a href="#">link 3</a>
+			</div>
+		</div>
+
+		<div class="dropdown" style="float:left">
+			<button class="list">list 3</button>
+			<div class="dropdown-content3">
+				<a href="#">link 1</a>
+				<a href="#">link 2</a>
+				<a href="#">link 3</a>
+			</div>
+		</div>
+
+	</body>
+</html>
+	

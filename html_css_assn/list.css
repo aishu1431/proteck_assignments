@@ -1,0 +1,12 @@
+.box {
+margin:20px;
+border:20px solid black;
+}
+
+.box>ul{
+	display:none;
+}
+
+.box>button:focus + ul{
+	display:block;
+}

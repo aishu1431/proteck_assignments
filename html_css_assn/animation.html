@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation image</title>
+	<style>
+		.gallery1{
+			display:inline-block;
+			position:relative;
+			margin:0px;
+			transition:width 4s, height 4s, transform 4s;
+		}
+        .gallery2{
+	        display:inline-block;
+	        position:relative;
+	        margin:0px;
+	        transition:width 2s, height 2s, transform 2s;
+
+}
+
+		}
+		.gallery1:hover>img{
+		transform:rotate(150deg);
+		filter:grayscale(100%);
+
+	
+		color:rgb(105,105,105);
+		}
+		.gallery2:hover>img{
+			transform:rotate(150deg);
+			filter:greyscale(100%);
+			
+			color:rgb(105,105,105);
+		}
+		img{
+			margin: 40px
+			
+		}
+	</style>
+</head>
+
+	<body>
+		<div>
+		<div class="gallery1">
+		<img src="http://www.webtechlearning.com/wp-content/uploads/2014/04/Best-Animation.jpg" style="width:250px; height:250px;">
+		<img src=http://www.webtechlearning.com/wp-content/uploads/2014/04/Best-Animation.jpg style="width:250px; height:250px;">
+		</div>
+		<div class="gallery2">
+			<img src="http://www.webtechlearning.com/wp-content/uploads/2014/04/Best-Animation.jpg" style="width:250px; height:250px;">
+		<img src=http://www.webtechlearning.com/wp-content/uploads/2014/04/Best-Animation.jpg style="width:250px; height:250px;">
+	</div>
+</div>
+	</body>
+</html>
+

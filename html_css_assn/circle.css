@@ -1,0 +1,33 @@
+
+.circle1{
+	background-color:red;
+	border-radius:100px;
+	width:100px;
+	height:100px;
+	border:1px solid black;
+}
+.circle2 {
+	background-color:blue;
+	border-radius:100px;
+	width:100px;
+	height:100px;
+	border:1px solid black;
+}
+.circle3{
+	background-color:yellow;
+	border-radius:100px;
+	width:100px;
+	height:100px;
+	border:1px solid black;
+}
+.circle4{
+	background-color:green;
+	border-radius:100px;
+	width:100px;
+	height:100px;
+	border:1px solid black;
+}
+
+.circle>input:focus+div{
+	background-color:pink;
+}

@@ -1,0 +1,13 @@
+
+.circle{
+	background-color:red;
+	border-radius:100px;
+	width:200px;
+	height:200px;
+	border:1px solid black;
+
+}
+#cir:hover+.circle{
+	float:right;
+	background-color:blue;
+}

@@ -1,0 +1,30 @@
+div#boxes{
+	background-color:white;
+	width:510px;
+	height:510px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.content{
+	height:150px;
+	width:150px;
+	border:5px solid black;
+	float:left;
+	margin:40px;
+}
+div#first{
+	background-color:red;
+	
+}
+div#second{
+	background-color:blue;
+
+}
+div#third{
+	background-color:yellow;
+}
+div#fourth{
+	background-color:green;
+
+}

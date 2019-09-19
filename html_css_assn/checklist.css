@@ -1,0 +1,14 @@
+div{
+	width:300px;
+	height:400px;
+	margin:400px;
+	float:center;
+	position:absolute;
+
+}
+div>ol>li>p{
+	display: none;
+}
+div>ol>li>input:focus + p{
+	display: block;
+}

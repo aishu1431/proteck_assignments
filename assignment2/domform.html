@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		registration form assignement.    
+	</title>
+	<link rel="stylesheet" type="text/css" href="domform.css">
+	<script type="text/javascript" src="domform.js">
+	</script>
+</head>
+<body id="color">
+	
+	<form id="myForm" action="#">
+		<fieldset id="section">
+			<h1 id="login">Registration Form</h1>
+	<label for="Username">UserName:</label><br>
+	<input type="text" name="userName" id="regisForm" />
+	<br>
+	<br>
+	<label for="password">Password:</label>
+	<br>
+    <input type="password" name="userId" id="keyvalue"/>
+    <br>
+	<br>
+	<label for="Gender">Gender:</label>
+	<br>
+	<input type="radio" name="gender" value="male" id="sex"/> Male<br>
+    <input type="radio" name="gender" value="female" id="sex1"/> Female<br>
+    <input type="radio" name="gender" value="other" id="sex2"/> Other
+    <br>
+    <br>
+	<label for="Country">Country:</label>
+	<br>
+	<select  name="country" id="county"/>
+		<option value="USA">USA</option>
+		<option value="Australia">Australia</option>
+		<option value="India">India</option>
+		<option value="Argentina">Argentina</option>
+		<option value="Bangalesh">Bangalesh</option>
+		<option value="Bhutan">Bhutan</option>
+		<option value="Bolivia">Bolivia</option>
+		<option value="China">China</option>
+		<option value="Colombia">Colombia</option>
+		<option value="Costa Rica">Costa Rica</option>
+		<option value="Croatia">Croatia</option>
+		<option value="Cuba">Cuba</option>
+		<option value="Egypt">Egypt</option>
+	</select>
+    <br>
+    <br>
+    <label for="comment">Comment:</label>
+    <br>
+    <textarea  name="subject" placeholder="Write Something..." style="height:100px; width:600px" id="subject"/></textarea>
+    <br>
+    <br>
+    <label for="Show Terms">Show Terms:</label>
+    <br>
+    <input  type="checkbox" name="i agree" id="accept"/>Please confirm that you agree for all the ters and condition>
+    <br>
+    <br>
+
+	<button onclick="para1()">submit</button> 
+	
+	</fieldset>
+	</form>
+	<body>
+	</html>
+
